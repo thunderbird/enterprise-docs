@@ -88,7 +88,7 @@ By default all HTML elements are interpreted by the Thunderbird HTML parser. For
 
 #### Prompt for third-party Add-ons \(untested\)
 
-Note: Starting with Thunderbird 78, traditional addons have been discontinued for security reasons. Addons are now generally expected to be Web Extensions using the APIs provided by Thunderbird.
+Note: Starting with Thunderbird 78, traditional add-ons have been discontinued for security reasons. Add-ons are now generally expected to be Web Extensions using the APIs provided by Thunderbird.
 
 * **extensions.autoDisableScopes**
   * Default: 15
