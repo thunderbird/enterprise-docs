@@ -33,7 +33,22 @@ Thunderbird's chat component allows the user to access different types of instan
   * Default Action: Enables access to the Instant Messaging user interface in Thunderbird
   * New in Thunderbird 13
 
-### HTML rendering in message reader <a id="HTML"></a>
+### Offline Download / Synchronisation  <a id="HTML"></a>
+
+* **mail.server.default.offline\_download**
+  * Default: true
+  * Default Action: Used to determine if newly created folders are set to take part in offline download or not.
+  * Notes: This is the default value for all servers/accounts when the mail.server.server&lt;n&gt;.offline\_download preference is not set.
+* **mail.server.server&lt;n&gt;.offline\_download**
+  * Default: true
+  * Default Action: Used to determine if newly created folders are set to take part in offline download or not.
+  * Notes:
+    * This value is typically not present unless it has been specifically overridden.
+    * Overrides mail.server.default.offline\_download for server&lt;n&gt;
+
+Both preferences now also have the behaviour that if offline\_download is true for an account/server, then on upgrade from Thunderbird 2, all existing IMAP folders will be updated to take part in offline download.
+
+### HTML rendering in message reader
 
 By default all HTML elements are interpreted by the Thunderbird HTML parser. For the message reader, there are some options to control which HTML elements will get rendered. Note that some of these preferences may not be effective for composition, especially when using Edit as New Message or Forward, which may load remote content and media anyway.
 
@@ -68,21 +83,6 @@ By default all HTML elements are interpreted by the Thunderbird HTML parser. For
   * Default Action: Allows specified elements to be interpreted by Thunderbird's HTML parser
   * Notes:
     * Obsolete after Thunderbird 13, use **mailnews.display.html\_sanitizer.drop\_media** and **mailnews.display.html\_sanitizer.drop\_non\_css\_presentation** instead. The preference will be automatically migrated to the new preferences if necessary.
-
-### Offline Download / Synchronisation 
-
-* **mail.server.default.offline\_download**
-  * Default: true
-  * Default Action: Used to determine if newly created folders are set to take part in offline download or not.
-  * Notes: This is the default value for all servers/accounts when the mail.server.server&lt;n&gt;.offline\_download preference is not set.
-* **mail.server.server&lt;n&gt;.offline\_download**
-  * Default: true
-  * Default Action: Used to determine if newly created folders are set to take part in offline download or not.
-  * Notes:
-    * This value is typically not present unless it has been specifically overridden.
-    * Overrides mail.server.default.offline\_download for server&lt;n&gt;
-
-Both preferences now also have the behaviour that if offline\_download is true for an account/server, then on upgrade from Thunderbird 2, all existing IMAP folders will be updated to take part in offline download.
 
 ### Version Upgrades  <a id="Version_Upgrades"></a>
 
