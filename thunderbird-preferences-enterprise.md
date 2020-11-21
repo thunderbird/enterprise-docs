@@ -11,7 +11,6 @@ Account Provisioning allows users to sign up for new email accounts from _gandi.
 * **mail.provider.enabled**
   * Default: true
   * Default Action: If the user does not have an account set up, they will be presented with an option to sign up for a new account. They may choose to set up an existing account that they hold instead of obtaining a new one.
-  * New in Thunderbird 13
 
 ### Filelink \(cloud attachments\) <a id="Filelink"></a>
 
@@ -22,7 +21,6 @@ Thunderbird offers an option to use WeTransfer as a cloud service. It is possibl
 * **mail.cloud\_files.enabled**
   * Default: true
   * Default Action: Prompts the user to see if they wish to send a link for big file attachments, rather than the link itself.
-  * New in Thunderbird 13
 
 ### Chat \(Instant Messaging\) <a id="Instant_Messaging"></a>
 
@@ -31,7 +29,6 @@ Thunderbird's chat component allows the user to access different types of instan
 * **mail.chat.enabled**
   * Default: true
   * Default Action: Enables access to the Instant Messaging user interface in Thunderbird
-  * New in Thunderbird 13
 
 ### Offline Download / Synchronisation  <a id="HTML"></a>
 
@@ -68,21 +65,13 @@ By default all HTML elements are interpreted by the Thunderbird HTML parser. For
   * Notes:
     * Only applies to messages viewed as Simple HTML \(mailnews.display.html\_as = 3, see above\).
     * To prevent rendering &lt;img&gt;, &lt;audio&gt; and &lt;video&gt; elements, i.e. to prevent images, audios, and videos from being displayed, set this preference to true.
-  * New in Thunderbird 14
+    * The following related pref is obsolete: mailnews.display.html\_sanitizer.allowed\_tags
 
 * **mailnews.display.html\_sanitizer.drop\_non\_css\_presentation**
-
   * Default: true
   * Default Action: Drop non-CSS presentational HTML elements and attributes, such as &lt;font&gt;, &lt;center&gt; and _bgcolor._
   * Notes:
     * Only applies to messages viewed as Simple HTML \(mailnews.display.html\_as = 3, see above\).
-  * New in Thunderbird 14
-
-* **Obsolete**: mailnews.display.html\_sanitizer.allowed\_tags
-  * Default: \[Long list of HTML tags\]
-  * Default Action: Allows specified elements to be interpreted by Thunderbird's HTML parser
-  * Notes:
-    * Obsolete after Thunderbird 13, use **mailnews.display.html\_sanitizer.drop\_media** and **mailnews.display.html\_sanitizer.drop\_non\_css\_presentation** instead. The preference will be automatically migrated to the new preferences if necessary.
 
 ### Version Upgrades  <a id="Version_Upgrades"></a>
 
@@ -100,9 +89,5 @@ Note: Starting with Thunderbird 78, traditional add-ons have been discontinued f
       * 4: Installed and owned by the Application
       * 8: Installed for all users of the computer
 
-#### Migration Assistant for Profiles from Version 3.0 or earlier <a id="Migration_Assistant"></a>
 
-* **Obsolete:** mailnews.ui.show.migration.on.upgrade
-  * Default: true
-  * Default Action: Shows the migration assistant when we're upgrading a profile from 3.0 or earlier.
 
