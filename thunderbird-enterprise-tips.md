@@ -43,7 +43,7 @@ Some of the tips on this page have been drawn from the  [tb-enterprise](http://g
 Create a javascript caller file named `autoconfig.js` in the following subfolder of the Thunderbird program folder:
 
 * For Windows, e.g.: `C:\Program Files\Mozilla Thunderbird\defaults\pref`
-* For Linux: `/usr/lib/thunderbird/default/pref`
+* For Linux: `/usr/lib/thunderbird/defaults/pref`
 
 Add the following content to `autoconfig.js`:
 
