@@ -40,7 +40,7 @@ Some of the tips on this page have been drawn from the  [tb-enterprise](http://g
 
 **Example**: Update _existing_ users of Thunderbird with LDAP access
 
-Create a javascript caller file named `autoconfig.js` in the following subfolder of the Thunderbird program folder:
+Create a JavaScript caller file named `autoconfig.js` in the following subfolder of the Thunderbird program folder:
 
 * For Windows, e.g.: `C:\Program Files\Mozilla Thunderbird\defaults\pref`
 * For Linux: `/usr/lib/thunderbird/defaults/pref`
@@ -52,7 +52,7 @@ pref("general.config.obscure_value",0);
 pref("general.config.filename","LDAPupdate.cfg");
 ```
 
-Create a javascript configuration file named `LDAPupdate.cfg` and place it into the `Thunderbird program folder`, with code like the following:
+Create a JavaScript configuration file named `LDAPupdate.cfg` and place it into the `Thunderbird program folder`, with code like the following:
 
 ```text
 defaultPref('ldap_2.autoComplete.directoryServer','ldap_2.servers.AutoGEN-CompanyNameLDAP');
