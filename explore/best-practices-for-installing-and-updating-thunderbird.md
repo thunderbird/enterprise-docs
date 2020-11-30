@@ -8,7 +8,7 @@ You can ensure that automatic updates are installed without user interference by
 
 If you need to turn off automatic updates, you can do this using the [DisableAppUpdate](https://github.com/thundernest/policy-templates/blob/master/README.md#disableappupdate) policy.
 
-For more information on policies, see [Managing Thunderbird policies](../manage-updates-policies-and-customization/managing-thunderbird-policies.md).
+For more information on policies, see [Managing Thunderbird policies](../manage-updates-policies-and-customization/managing-thunderbird-policies/).
 
 ## Beta Builds <a id="w_beta-builds"></a>
 
