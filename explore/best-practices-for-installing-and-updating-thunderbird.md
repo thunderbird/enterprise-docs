@@ -1,6 +1,6 @@
 # Best practices for installing and updating Thunderbird
 
-## Controlling automatic updates <a id="w_configuration-options"></a>
+## Automatic updates <a id="w_configuration-options"></a>
 
 By default, automatic updates are enabled in Firefox. We recommend you keep this feature so your users can have the latest security patches and features.  
   
