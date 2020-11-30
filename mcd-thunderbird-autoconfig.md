@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction
 
-This document provides a step by step instruction of configuring Thunderbird using a centralized application preferences file in large-scale deployments. Prefences are the internal settings used by Thunderbird to configure the application behaviour and define the properties of each Thunderbird account \(email, news, chat, etc.\) within a given Thunderbird profile. The classic example is an email account for a given email address with associated server settings and application behaviours. To achieve a completely automatic configuration of user-specific accounts in Thunderbird, user properties like name and email address will be retrieved either from system environment variables or from an organisation's LDAP directory.
+This document provides a step by step instruction of configuring Thunderbird using a centralized application preferences file in large-scale deployments. Preferences are the internal settings used by Thunderbird to configure the application behaviour and define the properties of each Thunderbird account \(email, news, chat, etc.\) within a given Thunderbird profile. The classic example is an email account for a given email address with associated server settings and application behaviours. To achieve a completely automatic configuration of user-specific accounts in Thunderbird, user properties like name and email address will be retrieved either from system environment variables or from an organisation's LDAP directory.
 
 ## Scenario and objective
 
