@@ -20,5 +20,5 @@ Thunderbird's release and beta version numbers generally match those of Mozilla 
 
 ## Disabling Thunderbird updates
 
-Automatic updates are enabled by default, but you can disable them using the [DisableAppUpdate policy](https://github.com/mozilla/policy-templates/blob/master/README.md#disableappupdate).
+Automatic updates are enabled by default, but you can disable them using the [DisableAppUpdate policy](https://github.com/thundernest/policy-templates/blob/master/README.md#disableappupdate).
 
