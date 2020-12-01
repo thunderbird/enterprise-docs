@@ -2,7 +2,7 @@
 
 ## Automatic updates <a id="w_configuration-options"></a>
 
-By default, automatic updates are enabled in Firefox. We recommend you keep this feature so your users can have the latest security patches and features.  
+By default, automatic updates are enabled in Thunderbird. We recommend you keep this feature so your users can have the latest security patches and features.  
   
 You can ensure that automatic updates are installed without user interference by using the [AppAutoUpdate](https://github.com/mozilla/policy-templates#appautoupdate) policy.
 
