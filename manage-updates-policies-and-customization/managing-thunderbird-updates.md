@@ -16,7 +16,7 @@ Thunderbird automatically benefits from all security updates of the underlying M
 | Minor | 78.1 | Every four weeks | Stability, correctness and security bug fixes. |
 |  | 78.1.1 | As required | Critical stability or security bug fixes. |
 
-Thunderbird's release and beta version numbers generally match those of Mozilla Firefox ESR and beta versions. Unlike Firefox, Thunderbird releases the rapid release versions between ESRs only as betas, so the major release version numbers will jump e.g. from Thunderbird 78 directly to Thunderbird 90.
+Thunderbird's release and beta version numbers generally match those of Mozilla Firefox ESR and beta versions. Unlike Firefox, Thunderbird releases the rapid release versions between ESRs only as betas, so the major release version numbers will jump e.g. from Thunderbird 78 directly to Thunderbird 91.
 
 ## Disabling Thunderbird updates
 
