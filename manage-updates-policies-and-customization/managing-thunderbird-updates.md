@@ -3,7 +3,7 @@
 We recommend keeping automatic updates enabled for all Thunderbird deployments to ensure that the latest security patches are applied and all features are available, but your specific environment may prevent automatic updates.
 
 {% hint style="success" %}
-Thunderbird automatically benefits from all security updates of the underlying Firefox platform technology.
+Thunderbird automatically benefits from all security updates of the underlying Mozilla platform technology.
 {% endhint %}
 
 ## Thunderbird Releases
@@ -13,7 +13,7 @@ Thunderbird automatically benefits from all security updates of the underlying F
 | Update type | TB Version example \(release\) | Frequency | Scope |
 | :--- | :--- | :--- | :--- |
 | Major | 78.0 | Every Year | New features delivered and bugs fixed in the last 12 months. |
-| Minor | 78.1 | Every four weeks | Critical stability or security bug fixes. |
+| Minor | 78.1 | Every four weeks | Stability/correctness and security bug fixes. |
 |  | 78.1.1 | As required | Critical stability or security bug fixes. |
 
 Thunderbird's release and beta version numbers generally match those of Mozilla Firefox ESR and beta versions. Unlike Firefox, Thunderbird releases the rapid release versions between ESRs only as betas, so the major release version numbers will jump e.g. from TB 78 directly to TB 90.
