@@ -2,6 +2,7 @@
 
 * [Thunderbird@Work](README.md)
 * [Explore](explore/README.md)
+  * [Thunderbird release cycle](explore/thunderbird-release-cycle.md)
   * [Best practices for installing and updating Thunderbird](explore/best-practices-for-installing-and-updating-thunderbird.md)
 * [Deploy](deploy/README.md)
   * [Mission Control Desktop \(MCD\) - Thunderbird AutoConfig](deploy/mcd-thunderbird-autoconfig.md)
