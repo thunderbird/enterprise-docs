@@ -103,7 +103,7 @@ Here’s an example of a valid .mst file to help understand how options can be c
 
 Logging can be [configured](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options) on the MSI to help troubleshoot installation issues.
 
-## Ways of using Thunderbird custom  options with MSI installers
+## Ways of using Thunderbird custom options with MSI installers
 
 There are several ways to use Thunderbird's default MSI file with your preferred configuration of custom options exposed in the MSI:
 
