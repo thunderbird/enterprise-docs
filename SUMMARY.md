@@ -5,6 +5,7 @@
   * [Thunderbird release cycle](explore/thunderbird-release-cycle.md)
   * [Best practices for installing and updating Thunderbird](explore/best-practices-for-installing-and-updating-thunderbird.md)
 * [Deploy](deploy/README.md)
+  * [Deploy Thunderbird with MSI installers](deploy/deploy-thunderbird-with-msi-installers.md)
   * [Mission Control Desktop \(MCD\) - Thunderbird AutoConfig](deploy/mcd-thunderbird-autoconfig.md)
 * [Manage updates, policies & customization](manage-updates-policies-and-customization/README.md)
   * [Managing Thunderbird Updates](manage-updates-policies-and-customization/managing-thunderbird-updates.md)
