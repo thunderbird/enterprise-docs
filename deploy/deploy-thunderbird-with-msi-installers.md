@@ -26,13 +26,13 @@ Thunderbird provides a number of custom MSI options for convenient automated ins
 
   Set to _false_ to disable pinning a shortcut to the taskbar. _true_ by default. This feature only works on Windows 7 and 8; it isn’t possible to create taskbar pins from the installer on later Windows versions.
 
-* **Create a desktop shortcut: `DESKTOP_SHORTCUT=true|false`** Set to _false_ to disable creating a shortcut on the desktop. _true_ by default.
-* **Create a start menu shortcut: `START_MENU_SHORTCUT=true|false`** Set to _false_ to disable creating a Start menu shortcut. _true_ by default.
-* **Disable the maintenance service: `INSTALL_MAINTENANCE_SERVICE=true|false`** Set to _false_ to disable installing the Mozilla Maintenance Service. This will effectively prevent users from installing Thunderbird updates if they do not have write permissions to the installation directory. _true_ by default.
-* **Disable removing** _**distribution**_ **subfolder: `REMOVE_DISTRIBUTION_DIR=true|false`** Set to _false_ to disable removing the _distribution_ subfolder from an existing installation that’s being paved over. By default this is true and the folder is removed. The default folder path of the _distribution_ subfolder is "C:\Program Files\Mozilla Thunderbird\distribution\".
-* **Prevent rebooting: `PREVENT_REBOOT_REQUIRED=true|false`** Set to _true_ to keep the installer from taking actions that would require rebooting the machine to complete, normally because files are in use. This should not be needed under normal circumstances unless you’re paving over a copy of Thunderbird that was running while the installer was trying to run, and setting this option in that case may result in an incomplete installation. _false_ by default.
-* **Bundle extensions: `OPTIONAL_EXTENSIONS=true|false`** Set to _false_ to disable installing any bundled extensions that are present. _true_ by default.
-* **Application files extraction directory: `EXTRACT_DIR="directory"`** Extract the application files to the given directory and exit without actually running the installer. Of course, this means all other options will be ignored.
+* **Create a desktop shortcut: `DESKTOP_SHORTCUT=true|false`**  Set to _false_ to disable creating a shortcut on the desktop. _true_ by default.
+* **Create a start menu shortcut: `START_MENU_SHORTCUT=true|false`**  Set to _false_ to disable creating a Start menu shortcut. _true_ by default.
+* **Disable the maintenance service: `INSTALL_MAINTENANCE_SERVICE=true|false`**  Set to _false_ to disable installing the Mozilla Maintenance Service. This will effectively prevent users from installing Thunderbird updates if they do not have write permissions to the installation directory. _true_ by default.
+* **Disable removing** _**distribution**_ **subfolder: `REMOVE_DISTRIBUTION_DIR=true|false`**  Set to _false_ to disable removing the _distribution_ subfolder from an existing installation that’s being paved over. By default this is true and the folder is removed. The default folder path of the _distribution_ subfolder is "C:\Program Files\Mozilla Thunderbird\distribution\".
+* **Prevent rebooting: `PREVENT_REBOOT_REQUIRED=true|false`**  Set to _true_ to keep the installer from taking actions that would require rebooting the machine to complete, normally because files are in use. This should not be needed under normal circumstances unless you’re paving over a copy of Thunderbird that was running while the installer was trying to run, and setting this option in that case may result in an incomplete installation. _false_ by default.
+* **Bundle extensions: `OPTIONAL_EXTENSIONS=true|false`**  Set to _false_ to disable installing any bundled extensions that are present. _true_ by default.
+* **Application files extraction directory: `EXTRACT_DIR="directory"`**  Extract the application files to the given directory and exit without actually running the installer. Of course, this means all other options will be ignored.
 
 ## MSIEXEC command line options
 
