@@ -8,7 +8,7 @@ description: >-
 
 ## MSI Installers
 
-Thunderbird offers MSI installers per locale and per release channel for 64bit Windows systems to help system administrators customize and deploy Thunderbird in their environments. The MSI installer \(supported on Windows 7 and later versions\) is a wrapper of the full _installer.exe_ that allows customizations e. g. through the use of an MST file prior to deploying through standard Windows deployment tools such as Active Directory or Microsoft System Center Configuration Manager.
+Thunderbird offers MSI installers per locale and per release channel for 64bit Windows systems to help system administrators customize and deploy Thunderbird in their environments. The MSI installer is a wrapper of the full _installer.exe_ that allows customizations e. g. through the use of an MST file prior to deploying through standard Windows deployment tools such as Active Directory or Microsoft System Center Configuration Manager.
 
 Visit our [Systems and Languages](https://www.thunderbird.net/en-US/thunderbird/all/) download page and choose your preferred language to download a `Windows MSI 64-bit` installer for the [Thunderbird release](https://www.thunderbird.net/en-US/thunderbird/all/) update channel. We also offer localized MSI installers for the [Thunderbird Beta](https://www.thunderbird.net/en-US/thunderbird/beta/all/) and [Thunderbird Daily](http://ftp.mozilla.org/pub/thunderbird/nightly/latest-comm-central-l10n/) update channels \(note that _Thunderbird Daily_ is an unstable testing and development platform not intended for production environments; make sure to back up important data regularly!\).
 
