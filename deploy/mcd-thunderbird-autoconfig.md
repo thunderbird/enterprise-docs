@@ -53,7 +53,9 @@ getenv(name)
 
 
 
+## More information, tips and examples
 
+[This blog](https://blog.deanandadie.net/tag/mission-control-desktop/) has further reading with more explanations, tips and tricks, and step by step examples.
 
 
 
