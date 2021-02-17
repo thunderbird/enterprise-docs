@@ -73,6 +73,15 @@ By default all HTML elements are interpreted by the Thunderbird HTML parser. For
   * Notes:
     * Only applies to messages viewed as Simple HTML \(mailnews.display.html\_as = 3, see above\).
 
+### Disable address book for recipient autocomplete
+
+You may want to disable outdated or unwanted address books for recipient autocomplete when writing a new message. This is possible by creating a custom preference for the address book. The pref name has LDAP, but it works for local address books, too.
+
+1. ≡ &gt; Options &gt; Find in Options &gt; about:config
+2. Right-click in config editor &gt; New &gt; Boolean
+3. Enter preference name: `ldap_2.servers.TestAB.enable_autocomplete` \(if the name of your AB is "TestAB"\)
+4. Enter boolean value: choose `false` ⇒ TestAB will no longer be used for recipient auto-completion.
+
 ### Version Upgrades  <a id="Version_Upgrades"></a>
 
 #### Prompt for third-party Add-ons \(untested\)
