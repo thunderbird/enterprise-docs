@@ -10,7 +10,7 @@ description: >-
 
 Thunderbird comes with a number of key benefits which make it an excellent choice for organizational deployments of any size. Whether you are a small organization, a government institution, or a large enterprise - Thunderbird has been designed to scale to your needs.
 
-* Desktop email client packed with features
+* Cross-platform desktop email client packed with features
 * Integrated calendar application \(PIM\)
 * Integrated chat client
 * Advanced Search and Filter tools
