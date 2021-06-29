@@ -60,7 +60,7 @@ Note:
 
 You can use Thunderbird's inbuilt config editor to create these prefs: `≡ > Preferences > General > [Config Editor...]` button at the very bottom.
 
-Type the full name of the pref which you want to create into the search box: `intl.date_time.pattern_override.date_short` As the pref does not exist, it will show up in the results list as a new pref which you can create by first selecting `(o) String` and then using the the `[+]` button \(marked purple in the screenshot\). It will then ask you for a value, and you can enter `yyyy-MM-dd` \(you can always edit the value again later\). Then do the same by analogy for `intl.date_time.pattern_override.time_short`.
+Type the full name of the pref which you want to create into the search box: `intl.date_time.pattern_override.date_short` As the pref does not exist, it will show up in the results list as a new pref which you can create by first selecting `(o) String` and then using the the `[+]` button. It will then ask you for a value, and you can enter `yyyy-MM-dd` \(you can always edit the value again later\). Then do the same by analogy for `intl.date_time.pattern_override.time_short`.
 
 ### How to change the date/time connector \(e.g. from comma to space\)
 
@@ -79,5 +79,6 @@ The connector preference value must have date and time placeholders in curly bra
 
 Regular ASCII characters which you want to display must be single-quoted \(otherwise the date-time display may get truncated\):
 
-`intl.date_time.pattern_override.connector_short` = `{1}'T'{0}` Result for the short date and short time combination: `2021-06-24T21:00`
+`intl.date_time.pattern_override.connector_short` = `{1}'T'{0}`   
+Result for the short date and short time combination: `2021-06-24T21:00`
 
