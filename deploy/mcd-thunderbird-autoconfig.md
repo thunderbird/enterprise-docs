@@ -26,7 +26,7 @@ The caller, `autoconf.js`, must be placed in the following folder:
 * For Windows: _Thunderbird-install-path\defaults\pref_ , e.g.: `C:\Program Files\Mozilla Thunderbird\defaults\pref`
 * For Linux: `/usr/lib/thunderbird/defaults/pref` 
 
-For the sake of this tutorial, let's place the default configuration file, `thunderbird.cfg`, in the same folder.
+The configuration file, `thunderbird.cfg`, must be placed in the Thunderbird install path, e.g. `C:\Program Files\Mozilla Thunderbird` for Windows and `/usr/lib/thunderbird` for Linux.
 
 The caller, `autoconfig.js`, has the following content:
 
