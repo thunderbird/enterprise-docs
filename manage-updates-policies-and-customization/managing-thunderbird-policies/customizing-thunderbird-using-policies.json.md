@@ -22,7 +22,7 @@ The policies.json file looks like this:
 
 In this example, we are setting the `BlockAboutConfig` policy to `true`, which means that the user will not have access to the `about:config` page.
 
-The latest information about our policies is available in [the README on our GitHub repository](https://github.com/thundernest/policy-templates/blob/master/README.md).
+The latest information about our policies is available in [the README on our GitHub repository](https://github.com/thunderbird/policy-templates/blob/master/README.md).
 
 {% hint style="warning" %}
 **NOTE:** The above method will not work if Thunderbird is already being managed using Windows Group Policy.
