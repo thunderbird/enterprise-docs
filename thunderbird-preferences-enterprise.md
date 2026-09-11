@@ -21,6 +21,9 @@ Thunderbird offers an option to use WeTransfer as a cloud service. It is possibl
 - **mail.cloud_files.enabled**
   - Default: true
   - Default Action: Prompts the user to see if they wish to send a link for large file attachments, rather than the attachment itself.
+  - Notes:
+    - Set this preference to `false` to disable the Filelink user interface.
+    - Enterprise administrators should normally use the `DisableFileLink` enterprise policy rather than setting this preference directly.
 
 ### Chat \(Instant Messaging\) <a id="Instant_Messaging"></a>
 
@@ -28,7 +31,23 @@ Thunderbird's chat component allows the user to access different types of instan
 
 - **mail.chat.enabled**
   - Default: true
-  - Default Action: Enables access to the Instant Messaging user interface in Thunderbird
+  - Default Action: Enables access to the Instant Messaging user interface in Thunderbird.
+  - Notes:
+    - Set this preference to `false` to disable access to Thunderbird's Chat user interface.
+    - Enterprise administrators should normally use the `DisableChat` enterprise policy rather than setting this preference directly.
+
+### Community Features <a id="Community_Features"></a>
+
+Thunderbird includes links and commands that connect users with community, donation, feedback, support and development resources.
+
+- **mail.community_features.enabled**
+  - Default: true
+  - Default Action: Displays community-focused links and commands throughout Thunderbird.
+  - Notes:
+    - Set this preference to `false` to hide community-focused user interface elements.
+    - These elements include community, donation and feedback commands in the Help and application menus, as well as community links in Account Central and Account Hub.
+    - Enterprise administrators should normally use the `DisableCommunity` enterprise policy rather than setting this preference directly.
+    - The `DisableCommunity` policy also disables the Thunderbird Start Page and the Thundermail option in Account Hub by locking `mailnews.start_page.enabled` and `mail.accounthub.thundermail.enabled` to `false`.
 
 ### Data Collection Settings <a id="Data_Collection_Settings"></a>
 
@@ -66,7 +85,7 @@ Export for Mobile allows users to transfer compatible Thunderbird account settin
 
 Thunderbird may provide experimental features that users can enable from Settings. The available experimental features can vary between Thunderbird versions and release channels.
 
-- **mail.offer_experimental_features**
+- **mail.experimental_features_settings.enabled**
   - Default: true
   - Default Action: Displays available experimental feature controls in Thunderbird's Settings.
   - Notes:
