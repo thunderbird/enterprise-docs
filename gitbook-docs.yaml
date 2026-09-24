@@ -1,0 +1,11 @@
+$schema: https://gitbook.com
+site:
+  title: "Thunderbird@Work"
+structure:
+  - type: space
+    key: main-enterprise-docs-space
+    title: "Thunderbird@Work"
+    path: ""
+    default: true
+    content:
+      directory: ./
