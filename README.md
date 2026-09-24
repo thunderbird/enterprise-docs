@@ -23,5 +23,3 @@ Thunderbird comes with a number of key benefits which make it an excellent choic
 * Open source code - transparency without proprietary mysteries
 * Cross-platform policy support and configuration options for large and centralized deployments
 
-
-
