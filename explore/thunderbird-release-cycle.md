@@ -1,32 +1,99 @@
 ---
-description: Extended Support Releases (ESR) for organizations
+description: Thunderbird Release and Extended Support Release (ESR) channels for organizations
 ---
 
-# Thunderbird release cycle
+# Thunderbird release channels and lifecycle
 
 ## Overview
 
-Thunderbird's regular yearly releases, based on the Mozilla Extended Support Release \(ESR\) release cycle, are the perfect fit for organizations, including schools, universities, businesses and others who need extended support for mass deployments. Thunderbird combines the best of stability and security so that you can focus on getting your work done instead of worrying about constant changes to your communication system.
+Thunderbird offers two stable release channels for organizations: **[Release](https://support.mozilla.org/kb/thunderbird-release)** and **[Extended Support Release (ESR)](https://support.mozilla.org/kb/thunderbird-esr)**.
+Both receive security and stability updates, but differ in how frequently new features and improvements are introduced.
+
+**Thunderbird Release is the default channel** and provides updates every two weeks, allowing organizations to benefit from new features, improvements, and bug fixes as they become available. For organizations able to accommodate regular application changes, Release is a good choice.
+
+**Thunderbird ESR** follows an annual major release cycle and is designed for organizations that require a more predictable environment, with fewer feature changes throughout the year.
+
+The choice between Release and ESR depends on an organization's deployment practices, compatibility requirements, and capacity to test and manage updates.
 
 ## Release cycle details
 
-Thunderbird releases are maintained for more than a year with point releases that coincide with the [rapid releases of the Mozilla platform](https://wiki.mozilla.org/Release_Management/Calendar). These point releases may contain stability, correctness and security upgrades, whereas they will typically _not_ introduce new features or design changes.
+### Thunderbird Release
 
-{% hint style="success" %}
-Each Thunderbird release version will also have a three-cycle overlap \(at least 12 weeks\) between the time of a new release and the end-of-life of the previous release to permit testing and certification before you deploy the new version to your organization.
+As of September 2026, Thunderbird Release follows a two-week release cycle, delivering new features, improvements, and security updates on a regular basis. Release dates generally align with the [Mozilla platform release calendar](https://whattrainisitnow.com/calendar/).
+
+These updates typically include:
+
+- Security updates
+- New features and functionality
+- Improvements to existing features and the user interface
+- Stability and correctness fixes
+
+Additional point releases may be issued between releases to address important issues.
+
+The bi-weekly release cycle provides a more continuous delivery of improvements, avoiding the larger accumulation of changes associated with annual upgrades. Organizations with established testing and deployment processes may find this approach easier to manage.
+
+### Thunderbird Extended Support Release (ESR)
+
+Thunderbird ESR follows an annual major release cycle, with maintenance updates provided throughout its supported lifetime.
+
+ESR maintenance updates focus on high-risk or high-impact security vulnerabilities and major stability fixes. Off-schedule releases may also be issued to address critical security issues.
+
+New features and functional enhancements are typically reserved for the next annual ESR release rather than backported to existing ESR versions.
+
+ESR is particularly suitable for organizations that require longer periods of functional consistency, extensive compatibility testing, or tighter control over application changes.
+
+### Overlap between ESR versions
+
+{% hint style="info" %}
+Successive Thunderbird ESR versions have a six-release-cycle overlap (approximately 12 weeks). This provides organizations time to test and deploy the new ESR version before the previous version reaches end-of-life.
 {% endhint %}
 
-We rely on Thunderbird users to provide feedback for each new release. Especially during the first two cycles, please report any bugs such as regressions and stability issues.
+During the overlap period, organizations can evaluate compatibility with extensions, enterprise policies, and their existing deployment environment.
 
-Maintenance of each major release through point releases will provide stability, correctness and security bug fixes, and in rare cases may also include off-schedule releases to fix critical stability or security issues.
+At the end of an ESR version's support period:
 
-At the end of the support period for a Thunderbird version:
+- The version reaches end-of-life.
+- No further security or maintenance updates are provided for that version.
+- An update to the next supported ESR version is offered through Thunderbird's application update service.
 
-* The release will reach its end-of-life.
-* No further updates will be offered for that version.
-* An update to the next version will be offered through the application update service.
+## Choosing a release channel
 
-## Upgrade path between major versions
+Both Release and ESR are supported options for organizational deployments.
 
-Thunderbird will automatically update itself. System administrators can disable automatic updates through their deployment system. According to the three-cycle overlap described in the info box above, the automatical update from one major version X to the next major Version Y, will occur only with the release of version Y.3.0. For example, users of version 78 will be updated to 91 only with the 91.3 point release, ensuring a smooth transition to an improved version of the new major release.
+| Consideration           | Release                                            | ESR                                                              |
+| ----------------------- | -------------------------------------------------- | ---------------------------------------------------------------- |
+| Major release frequency | Every Two Weeks                                    | Annually                                                         |
+| New features            | Delivered regularly                                | Primarily with annual upgrades                                   |
+| Security updates        | Regular updates                                    | Regular maintenance updates                                      |
+| Functional changes      | More frequent, incremental changes                 | Fewer changes between major versions                             |
+| Best suited for         | Organizations comfortable managing regular updates | Organizations requiring longer periods of functional consistency |
 
+**Release is worth considering as the preferred option** where an organization's testing, deployment, and change-management processes can accommodate monthly updates. It provides faster access to improvements and fixes without waiting for the next annual ESR.
+
+ESR remains a good choice where minimizing changes to application behaviour is more important than receiving new functionality quickly.
+
+Organizations using Thunderbird extensions or integrations should verify compatibility with their selected release channel before deployment.
+
+## Managing updates
+
+Thunderbird supports automatic application updates, which we recommend keeping enabled to ensure timely delivery of security fixes.
+
+System administrators can manage updates using enterprise policies and deployment tools, including controlling when updates are installed.
+
+Organizations should test new releases against their required extensions, configurations, and workflows before broad deployment.
+
+## Upgrade path between ESR versions
+
+Thunderbird normally offers automatic upgrades between major ESR versions after the initial overlap period, allowing organizations time to evaluate the new version.
+
+For example, an organization using ESR version X would ordinarily be offered an automatic upgrade to ESR version Y around the release of Y.3.0.
+
+Administrators managing updates centrally can coordinate this transition according to their deployment requirements.
+
+Organizations considering a change between Release and ESR should review the applicable migration guidance and test the transition before deploying it broadly.
+
+## Staying informed
+
+Organizations are encouraged to join the [Thunderbird Enterprise discussion group](https://thunderbird.topicbox.com/groups/enterprise) to stay informed about release changes, enterprise deployment considerations, and upcoming updates.
+
+Administrators can also consult the [Thunderbird ESR support article](https://support.mozilla.org/kb/thunderbird-esr) for additional information about the ESR lifecycle.
