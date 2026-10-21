@@ -9,7 +9,7 @@ description: Thunderbird Release and Extended Support Release (ESR) channels for
 Thunderbird offers two stable release channels for organizations: **[Release](https://support.mozilla.org/kb/thunderbird-release)** and **[Extended Support Release (ESR)](https://support.mozilla.org/kb/thunderbird-esr)**.
 Both receive security and stability updates, but differ in how frequently new features and improvements are introduced.
 
-**Thunderbird Release is the default channel** and provides monthly updates, allowing organizations to benefit from new features, improvements, and bug fixes as they become available. For organizations able to accommodate regular application changes, Release is a good choice.
+**Thunderbird Release is the default channel** and provides updates every two weeks, allowing organizations to benefit from new features, improvements, and bug fixes as they become available. For organizations able to accommodate regular application changes, Release is a good choice.
 
 **Thunderbird ESR** follows an annual major release cycle and is designed for organizations that require a more predictable environment, with fewer feature changes throughout the year.
 
@@ -45,7 +45,7 @@ ESR is particularly suitable for organizations that require longer periods of fu
 ### Overlap between ESR versions
 
 {% hint style="info" %}
-Successive Thunderbird ESR versions have a three-release-cycle overlap (approximately 12 weeks). This provides organizations time to test and deploy the new ESR version before the previous version reaches end-of-life.
+Successive Thunderbird ESR versions have a six-release-cycle overlap (approximately 12 weeks). This provides organizations time to test and deploy the new ESR version before the previous version reaches end-of-life.
 {% endhint %}
 
 During the overlap period, organizations can evaluate compatibility with extensions, enterprise policies, and their existing deployment environment.
